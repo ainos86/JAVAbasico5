@@ -2,17 +2,17 @@ package JAVAbasico5;
 
 public class CocheCRUDImpl implements CocheCRUD{
     @Override
-    void save() {
-
+    public void save() {
+        System.out.println("save()");
     }
 
     @Override
-    List<Coche> findAll() {
-        return null;
+    public void findAll() {
+        System.out.println("findAll()");
     }
 
     @Override
-    void delete() {
-
+    public void delete() {
+        System.out.println("delete()");
     }
 }
